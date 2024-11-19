@@ -24,7 +24,7 @@ class TicTacToe:
 
     def play(self, x, y):
         # if coords are out of range
-        if not ((0 <= abs(x) <= 2) and (0 <= abs(y) <= 2)):
+        if not ((0 <= x <= 2) and (0 <= y <= 2)):
             raise ValueError(
                 f"Coordinates must be from [0, 2] interval, x: {x} y: {y} were given."
             )
