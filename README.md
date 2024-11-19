@@ -87,7 +87,7 @@ str(Stone.X)
 ```
 
 ## Testování
-K balíčku `tictactoe` dopiště kompletní sadu unit-testů (umístěte je do složky `tests`). Testy musí být po instalaci `pip install -e .` spustitelné pomoci příkazu `pytest`. Snažte se docílit co největší code coverage. Jste v roli testera, proto nijak neupravujte funkcionalitu tohoto balíčku. 
+K balíčku `tictactoe` dopiště kompletní sadu unit-testů (umístěte je do složky `tests`). Testy musí být po instalaci `pip install -e .` spustitelné pomoci příkazu `pytest`. Snažte se docílit co největší code coverage a použijte nástroje jako `@pytest.mark.parametrize` a `@pytest.fixtures`. Jste v roli testera, proto nijak neupravujte funkcionalitu tohoto balíčku. 
 
 Třída `tictactoe.TicTacToe` obsahuje následující vlastnosti:
 
