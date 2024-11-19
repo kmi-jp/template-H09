@@ -1,4 +1,4 @@
-# L10E01: TicTacToe
+# H09: TicTacToe
 Ve složce `tictactoe` naleznete balíček obsahující jednoduchou implementaci hry TicTacToe (piškvorky na hrací desce 3x3). Během řešení tohoto úkolu je možné používat i věci nad rámec semináře (hlavně v kontextu knihovny `pytest` a `typing`).
 
 Ukázka použití
@@ -87,7 +87,7 @@ str(Stone.X)
 ```
 
 ## Testování
-K balíčku `tictactoe` dopiště kompletní sadu unit-testů (umístěte je do složky `tests`). Testy musí být po instalaci `pip install -e .` spustitelné pomoci příkazu `pytest`. Snažte se docílit co největší code coverage. Pokud balíček bude obsahovat chyby, opravte jej (tím neříkám, že tam nějaké jsou :)).
+K balíčku `tictactoe` dopiště kompletní sadu unit-testů (umístěte je do složky `tests`). Testy musí být po instalaci `pip install -e .` spustitelné pomoci příkazu `pytest`. Snažte se docílit co největší code coverage. Jste v roli testera, proto nijak neupravujte funkcionalitu tohoto balíčku. 
 
 Třída `tictactoe.TicTacToe` obsahuje následující vlastnosti:
 
